@@ -1,15 +1,201 @@
-# 教育资源
+# AI + 编程教育资源
 
 ## 目录
 
-- [在线学习平台](#在线学习平台)
+- [AI 学习平台](#ai-学习平台)
+- [在线编程平台](#在线编程平台)
+- [AI 工具和模型](#ai-工具和模型)
 - [编程工具](#编程工具)
 - [教材与书籍](#教材与书籍)
 - [视频课程](#视频课程)
 - [编程社区](#编程社区)
 - [硬件资源](#硬件资源)
 
-## 在线学习平台
+## AI 学习平台
+
+### 无代码 AI 训练平台
+
+#### Teachable Machine
+- **网址**：https://teachablemachine.withgoogle.com/
+- **开发者**：Google
+- **适用年龄**：10+ 岁
+- **特色**：
+  - 完全免费，无需注册
+  - 浏览器端运行
+  - 3 种模式：图像、声音、姿态
+  - 可视化训练过程
+  - 导出模型（TensorFlow.js、TFLite）
+  
+- **学习内容**：
+  - 收集训练数据
+  - 训练图像/声音/姿态分类模型
+  - 实时测试模型
+  - 导出并集成到项目
+
+- **项目案例**：
+  - 手势识别游戏
+  - 声控应用
+  - 智能分拣系统
+
+#### ML4Kids
+- **网址**：https://machinelearningforkids.co.uk/
+- **适用年龄**：8-14 岁
+- **特色**：
+  - 结合 Scratch 的 AI 教育平台
+  - 提供 AI 积木扩展
+  - 支持文本、图像、数字分类
+  - 免费使用（有配额限制）
+
+- **学习内容**：
+  - 在 Scratch 中使用 AI
+  - 训练文本分类器
+  - 训练图像识别模型
+  - 创作 AI 驱动的游戏和应用
+
+- **项目示例**：
+  - 智能聊天机器人
+  - 图像识别游戏
+  - 情感分析应用
+
+#### PictoBlox
+- **网址**：https://pictoblox.ai/
+- **适用年龄**：8-16 岁
+- **特色**：
+  - 基于 Scratch 3.0
+  - 内置 AI 和 ML 扩展
+  - 支持硬件（Arduino, Micro:bit, Raspberry Pi）
+  - 提供 AI 课程
+
+- **AI 功能**：
+  - 人脸检测和识别
+  - 物体识别
+  - 文本识别（OCR）
+  - 姿态检测
+  - 手势识别
+
+#### AI Experiments
+- **网址**：https://experiments.withgoogle.com/collection/ai
+- **开发者**：Google
+- **特色**：
+  - 趣味 AI 实验
+  - 可视化 AI 概念
+  - 开源代码
+
+- **推荐实验**：
+  - Quick, Draw!（AI 猜画）
+  - Thing Translator（物体识别翻译）
+  - Shadow Art（AI 艺术）
+  - Semantris（语义游戏）
+
+### AI 课程平台
+
+#### Elements of AI
+- **网址**：https://www.elementsofai.com/
+- **适用年龄**：高中以上
+- **特色**：
+  - 完全免费
+  - 无需编程基础
+  - 多语言支持（含中文）
+  - 获得证书
+
+- **课程内容**：
+  - AI 是什么
+  - 机器学习基础
+  - 神经网络
+  - AI 伦理
+
+#### Fast.ai
+- **网址**：https://www.fast.ai/
+- **适用年龄**：高中以上
+- **特色**：
+  - 实用深度学习课程
+  - 完全免费
+  - Top-down 教学法
+  - 强调实践
+
+- **课程**：
+  - Practical Deep Learning for Coders
+  - From Deep Learning Foundations to Stable Diffusion
+  - Natural Language Processing
+
+#### Google AI Education
+- **网址**：https://ai.google/education/
+- **特色**：
+  - 免费 AI 教育资源
+  - 面向教师和学生
+  - 实践导向
+
+- **资源**：
+  - 机器学习速成课程
+  - TensorFlow 教程
+  - AI 探险队（AI Adventures）
+
+#### DeepLearning.AI
+- **网址**：https://www.deeplearning.ai/
+- **创始人**：Andrew Ng
+- **特色**：
+  - 系统的深度学习课程
+  - Coursera 平台
+  - 专业证书
+
+- **推荐课程**：
+  - Deep Learning Specialization
+  - Machine Learning Specialization
+  - TensorFlow Developer Professional Certificate
+
+#### AI4K12
+- **网址**：https://ai4k12.org/
+- **特色**：
+  - K-12 AI 教育指南
+  - 五大 AI 概念
+  - 教师资源
+
+- **五大概念**：
+  - 感知（Perception）
+  - 表示与推理（Representation & Reasoning）
+  - 学习（Learning）
+  - 自然交互（Natural Interaction）
+  - 社会影响（Societal Impact）
+
+### 国内 AI 学习平台
+
+#### 百度 AI Studio
+- **网址**：https://aistudio.baidu.com/
+- **特色**：
+  - 免费算力
+  - 飞桨（PaddlePaddle）框架
+  - 项目式学习
+  - 竞赛平台
+
+- **学习资源**：
+  - AI 快车道
+  - 产业实践课程
+  - 学习路线图
+
+#### 阿里云天池
+- **网址**：https://tianchi.aliyun.com/
+- **特色**：
+  - AI 竞赛平台
+  - 免费学习资源
+  - 数据集分享
+
+#### 华为昇腾 AI
+- **网址**：https://www.hiascend.com/
+- **特色**：
+  - MindSpore 框架
+  - AI 开发课程
+  - 认证培训
+
+#### 商汤 AI 教育
+- **网址**：https://edu.sensetime.com/
+- **特色**：
+  - K-12 AI 教育解决方案
+  - AI 教材
+  - 教学平台
+
+---
+
+## 在线编程平台
 
 ### 综合性平台（国际）
 
@@ -217,6 +403,194 @@
   - 企业招聘
   - 竞赛平台
 
+## AI 工具和模型
+
+### AI 绘画工具
+
+#### Stable Diffusion
+- **类型**：开源 AI 绘画模型
+- **特色**：
+  - 完全开源免费
+  - 本地部署
+  - 高度可定制
+  - 社区活跃
+
+- **部署方式**：
+  - Stable Diffusion Web UI（推荐）
+  - ComfyUI（节点式工作流）
+  - 在线平台（DreamStudio, Playground AI）
+
+- **学习内容**：
+  - Prompt 提示词编写
+  - 参数调整（CFG, Steps, Sampler）
+  - ControlNet 精确控制
+  - LoRA 模型使用和训练
+
+#### Midjourney
+- **网址**：https://www.midjourney.com/
+- **类型**：商业 AI 绘画工具
+- **特色**：
+  - 画质优秀
+  - Discord 集成
+  - 社区作品丰富
+  - 付费订阅
+
+#### DALL·E 3
+- **开发者**：OpenAI
+- **集成平台**：
+  - ChatGPT Plus
+  - Bing Image Creator（免费）
+
+- **特色**：
+  - 文本理解能力强
+  - 安全性高
+  - 与 ChatGPT 结合
+
+### AI 写作工具
+
+#### ChatGPT
+- **网址**：https://chat.openai.com/
+- **开发者**：OpenAI
+- **特色**：
+  - 强大的语言理解和生成
+  - 多轮对话
+  - 代码生成
+  - 免费版和 Plus 订阅
+
+- **教育应用**：
+  - AI 辅导老师
+  - 代码解释和调试
+  - 创意写作
+  - 学习助手
+
+#### Claude
+- **网址**：https://claude.ai/
+- **开发者**：Anthropic
+- **特色**：
+  - 长文本处理能力强
+  - 更加安全和有用
+  - 代码能力出色
+
+#### 文心一言
+- **网址**：https://yiyan.baidu.com/
+- **开发者**：百度
+- **特色**：
+  - 中文支持好
+  - 国内可用
+  - 多模态能力
+
+#### 通义千问
+- **网址**：https://tongyi.aliyun.com/
+- **开发者**：阿里巴巴
+- **特色**：
+  - 免费使用
+  - 文档理解
+  - 代码生成
+
+### AI 音乐工具
+
+#### Suno AI
+- **网址**：https://suno.ai/
+- **特色**：
+  - AI 作曲和歌词
+  - 多种音乐风格
+  - 生成完整歌曲
+
+#### MusicGen
+- **开发者**：Meta
+- **特色**：
+  - 开源模型
+  - 文本转音乐
+  - 可本地部署
+
+### AI 代码助手
+
+#### GitHub Copilot
+- **网址**：https://github.com/features/copilot
+- **特色**：
+  - AI 代码补全
+  - VS Code 集成
+  - 多语言支持
+  - 学生免费
+
+#### Cursor
+- **网址**：https://cursor.sh/
+- **特色**：
+  - AI 驱动的代码编辑器
+  - 对话式编程
+  - 代码生成和重构
+
+#### Replit AI
+- **网址**：https://replit.com/ai
+- **特色**：
+  - 在线 IDE + AI
+  - 实时代码生成
+  - 调试助手
+
+### AI 模型库和工具
+
+#### Hugging Face
+- **网址**：https://huggingface.co/
+- **特色**：
+  - 最大的 AI 模型社区
+  - 免费模型和数据集
+  - Transformers 库
+  - Spaces（在线 Demo）
+
+- **热门模型**：
+  - GPT 系列
+  - BERT 系列
+  - Stable Diffusion
+  - LLaMA
+
+#### TensorFlow Model Garden
+- **网址**：https://www.tensorflow.org/resources/models-datasets
+- **特色**：
+  - Google 官方模型库
+  - 预训练模型
+  - 教程和示例
+
+#### PyTorch Hub
+- **网址**：https://pytorch.org/hub/
+- **特色**：
+  - 预训练模型
+  - 一键加载
+  - 涵盖各领域
+
+### AI 学习工具
+
+#### Kaggle
+- **网址**：https://www.kaggle.com/
+- **特色**：
+  - AI 竞赛平台
+  - 免费 GPU/TPU
+  - Notebooks 分享
+  - 数据集资源
+  - 学习课程
+
+- **学习路径**：
+  - Intro to Machine Learning
+  - Intermediate Machine Learning
+  - Deep Learning
+  - Computer Vision
+
+#### Google Colab
+- **网址**：https://colab.research.google.com/
+- **特色**：
+  - 免费 Jupyter Notebook
+  - 免费 GPU/TPU
+  - Google Drive 集成
+  - 分享和协作
+
+#### Paperspace Gradient
+- **网址**：https://www.paperspace.com/gradient
+- **特色**：
+  - 云端 ML 平台
+  - 免费和付费版
+  - Jupyter Notebook
+
+---
+
 ## 编程工具
 
 ### 在线编辑器
@@ -335,7 +709,46 @@
 
 ## 教材与书籍
 
-### 入门书籍
+### AI 入门书籍
+
+#### 中小学 AI 启蒙
+1. **《人工智能启蒙》系列**
+   - 作者：商汤科技教育团队
+   - 适合：小学到高中
+   - 特点：分年级教材，配套实践平台
+
+2. **《AI 上未来》系列**
+   - 作者：网易、电子工业出版社
+   - 适合：9-15 岁
+   - 特点：趣味故事 + 动手实践
+
+3. **《给孩子的人工智能课》**
+   - 作者：涂子沛
+   - 适合：10+ 岁
+   - 特点：通俗易懂，概念清晰
+
+#### 机器学习入门
+1. **《AI 极简经济学》**
+   - 作者：Ajay Agrawal 等
+   - 适合：高中以上
+   - 特点：从经济学角度理解 AI
+
+2. **《机器学习实战：基于 Scikit-Learn、Keras 和 TensorFlow》**
+   - 作者：Aurélien Géron
+   - 适合：有 Python 基础
+   - 特点：实战导向，代码丰富
+
+3. **《动手学深度学习》**
+   - 作者：李沐等
+   - 在线版：https://zh.d2l.ai/
+   - 特点：PyTorch 实现，免费开源
+
+4. **《神经网络与深度学习》**
+   - 作者：邱锡鹏
+   - 适合：大学水平
+   - 特点：理论扎实，中文教材
+
+### 编程入门书籍
 
 #### Python 方向
 1. **《Python 编程：从入门到实践（第 3 版）》**
@@ -376,6 +789,35 @@
    - 适合：零基础
    - 特点：游戏制作
 
+### AI + 编程综合书籍
+
+1. **《Python 机器学习》**
+   - 作者：Sebastian Raschka
+   - 适合：有 Python 基础
+   - 特点：理论 + 实践平衡
+
+2. **《深度学习入门：基于 Python 的理论与实现》**
+   - 作者：斋藤康毅
+   - 适合：零基础深度学习
+   - 特点：从零实现神经网络
+
+3. **《Python 深度学习》**
+   - 作者：François Chollet（Keras 作者）
+   - 适合：实践者
+   - 特点：Keras 框架，实用性强
+
+### AI 伦理与社会影响
+
+1. **《AI 未来》**
+   - 作者：李开复
+   - 适合：全年龄段
+   - 特点：AI 时代的机遇与挑战
+
+2. **《生命 3.0：人工智能时代，人类的进化与重生》**
+   - 作者：Max Tegmark
+   - 适合：高中以上
+   - 特点：AI 哲学思考
+
 ### 算法与数据结构
 
 1. **《算法图解》**
@@ -414,7 +856,82 @@
 
 ## 视频课程
 
-### 中文视频资源
+### AI 视频课程（中文）
+
+#### 哔哩哔哩 AI 课程
+- **[3Blue1Brown 中文版](https://space.bilibili.com/88461692)**
+  - 神经网络可视化讲解
+  - 深度学习原理
+  - 数学直观理解
+
+- **[李宏毅机器学习课程](https://speech.ee.ntu.edu.tw/~hylee/ml/)**
+  - 台大李宏毅教授
+  - 机器学习 / 深度学习
+  - 生成式 AI
+  - 中文讲解，通俗易懂
+
+- **[动手学深度学习（李沐）](https://space.bilibili.com/1567748478)**
+  - PyTorch 实现
+  - 每课配代码
+  - 社区活跃
+
+- **[跟李沐学AI](https://space.bilibili.com/1567748478)**
+  - 论文精读
+  - 最新 AI 技术
+  - 深入浅出
+
+#### AI 少儿编程课程
+- **编程猫 AI 系列课程**
+  - 图形化 AI 编程
+  - AI 项目实战
+  
+- **网易卡搭 AI 课程**
+  - Scratch + AI
+  - 趣味 AI 项目
+
+### AI 视频课程（英文）
+
+#### YouTube AI 频道
+
+- **[3Blue1Brown](https://www.youtube.com/@3blue1brown)**
+  - 神经网络系列
+  - 数学可视化
+  - 极高质量
+
+- **[Sentdex](https://www.youtube.com/@sentdex)**
+  - Python 机器学习
+  - TensorFlow / PyTorch
+  - 实战项目
+
+- **[Two Minute Papers](https://www.youtube.com/@TwoMinutePapers)**
+  - AI 论文解读
+  - 最新 AI 进展
+  - 2 分钟了解 AI 论文
+
+- **[AI Explained](https://www.youtube.com/@aiexplained-official)**
+  - AI 新闻和分析
+  - GPT、Gemini 等模型解读
+
+- **[Code Bullet](https://www.youtube.com/@CodeBullet)**
+  - AI 游戏项目
+  - 强化学习
+  - 趣味性强
+
+#### 课程平台
+
+- **[Coursera - Andrew Ng 机器学习](https://www.coursera.org/learn/machine-learning)**
+  - 最经典的 ML 入门课程
+  - 吴恩达主讲
+  - 中文字幕
+
+- **[Fast.ai 课程](https://course.fast.ai/)**
+  - Practical Deep Learning for Coders
+  - 免费高质量
+  - Top-down 教学
+
+### 编程视频课程
+
+#### 中文视频资源
 
 #### 哔哩哔哩
 - **[编程启蒙课程](https://www.bilibili.com/)**
